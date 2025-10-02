@@ -1,0 +1,7 @@
+s=input('Введите текст')
+word=input('Введите слово из текста')
+s=s.lower()
+word=word.lower()
+words=s.split()
+k=words.count(word)
+print(k)

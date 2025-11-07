@@ -16,3 +16,4 @@ denom//=NOD
 
 print(numer//denom)
 
+

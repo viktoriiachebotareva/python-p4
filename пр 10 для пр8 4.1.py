@@ -10,8 +10,6 @@ for i in range(lins):
     matrix.append(row)
     sums.append(sum(row))
 
-sums = [sum(row) for row in matrix]
-
 max_sum = max(sums)
 min_sum = min(sums)
 max_index = sums.index(max_sum)
@@ -27,5 +25,6 @@ output_file.write('Минимальная сумма: ' + str(min_sum) + ' (ст
 
 input_file.close()
 output_file.close()
+
 
 

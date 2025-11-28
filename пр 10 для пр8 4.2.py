@@ -5,7 +5,7 @@ with open(input_filename, 'r') as file:
     N = int(file.readline())
     matrix = []
     
-    for _ in range(N):
+    for x in range(N):
         row = list(map(int, file.readline().split()))
         matrix.append(row)
 
@@ -24,3 +24,4 @@ with open(output_filename, 'w') as file:
             if i >= j:
                 file.write(str(matrix[i][j]))
         file.write('\n')  
+

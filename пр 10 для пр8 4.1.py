@@ -5,7 +5,7 @@ lins, columns = map(int, input_file.readline().split())
 
 matrix = []
 sums=[]
-for _ in range(lins):
+for i in range(lins):
     row = list(map(int, input_file.readline().split()))
     matrix.append(row)
     sums.append(sum(row))
@@ -27,4 +27,5 @@ output_file.write('Минимальная сумма: ' + str(min_sum) + ' (ст
 
 input_file.close()
 output_file.close()
+
 
